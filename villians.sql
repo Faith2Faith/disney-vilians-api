@@ -1,6 +1,6 @@
 CREATE DATABASE disneyVillains;
 
-  CREATE USER 'badGuys'@'localhost' IDENTIFIED WITH mysql_native_password BY 'B4dGuY$';
+  CREATE USER 'badGuys'@'localhost' IDENTIFIED WITH mysql_native_password BY 'b4DGuY$';
 
   GRANT ALL on disneyVillains.* TO 'badGuys'@'localhost';
 
@@ -37,4 +37,3 @@ CREATE DATABASE disneyVillains;
    INSERT INTO villains(name, movie, slug) VALUES ('Ursula','The Little Mermaid','ursula');
 
     SELECT * FROM villains 
-    
